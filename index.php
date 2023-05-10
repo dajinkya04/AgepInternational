@@ -42,64 +42,7 @@
 
 <body>
     <!-- <?php include 'header.php'; ?> -->
-    <!-- ======= Top Bar ======= -->
-<div id="topbar" class="fixed-top d-flex align-items-center bg-dark">
-    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-        <div class="contact-info d-flex align-items-center">
-            <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
-            <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
-        </div>
-        <div class="cta d-none d-md-block">
-            <a href="#about" class="scrollto">FAQ And Help</a>
-        </div>
-    </div>
-</div>
 
-<!-- ======= Header ======= -->
-<header id="header" class="fixed-top d-flex align-items-center bg-light text-dark"
-    style="border-bottom: 2px solid #FFA500;">
-    <div class="container d-flex align-items-center justify-content-between">
-        <a href="index.html" target="_black" class="logo"><img src="assets/img/logo.png" alt=""></a>
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a href="index.html"><span>Home</span></a>
-
-                <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="visionandmission.html">Vision & Mission</a></li>
-                        <li><a href="journey.html">Journey</a></li>
-                        <li><a href="#">Directors Message</a></li>
-                        <li><a href="ourteam.html">Our Team</a></li>
-                        <li><a href="#">Contact Details</a></li>
-                </li>
-            </ul>
-            </li>
-            <li class="dropdown"><a href="#"><span>News & Blogs</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                    <li><a href="blog.html">Blogs</a></li>
-                    <li><a href="#">Client & Feedback</a></li>
-                    <li><a href="#">Testlimonies</a></li>
-                </ul>
-            </li>
-            <li class="dropdown"><a href="#"><span>Innovation</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                    <li><a href="#">Case Studies</a></li>
-                    <li><a href="#">Industries Cases</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-            </li>
-            <!-- <li class="dropdown"><a href="#"><span>Distributors Network</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                    <li><a href="#">Location & Contacts</a></li>
-                </ul>
-            </li> -->
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle bg-dark"></i>
-        </nav>
-        <!-- .navbar  -->
-    </div>
-</header>
-<!-- End Header -->
 
     <!-- ====================Main Card Section End ======================-->
     <section>
@@ -139,7 +82,7 @@
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 col-1-5">
                         <div class="card" style="width:210px;">
                             <a href="/#">
-                                <img src="assets/img/card_banner/AGEPIndia.png" class="card-img-top img-fluid"
+                                <img src="assets/img/card_banner/AGEPindia.png" class="card-img-top img-fluid"
                                     alt="Card image">
                                 <div class="card-body">
                                     <h5 class="card-title">AGEP India
@@ -557,83 +500,7 @@
 
 
     <!-- footer section Start  -->
-    <!-- <?php include 'footer.php'; ?> -->
-    <!-- ======= Footer ======= -->
-<footer id="footer" class="bg-dark">
-    <div class="footer-newsletter bg-light text-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h4>Our Newsletter</h4>
-                    <p> Our Services helps to bridge the gap between your business and safety</p>
-                </div>
-                <div class="col-lg-6">
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Subscribe">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer-top bg-dark text-light">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">News & Blogs</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Services</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 footer-contact">
-                    <h4>Contact Us</h4>
-                    <p>
-                        C/12, Godavari, Laxmi Industrial Premise, Vartak Nagar, Thane, Maharashtra 400606<br><br>
-                        <strong>Phone:</strong> +1000000000<br>
-                        <strong>Email:</strong> info@000000<br>
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6 footer-info text-center">
-                    <a href="index.html" target="_black" class="footer-logo"><img class="img-fluid"
-                            src="assets/img/logo.png" alt=""></a>
-                    <!-- <h3>International</h3> -->
-                    <p>AGEP International will help you get rid of corrosion and will help you to secure your workplace
-                        for sure</p>
-                    <div class="social-links mt-3">
-                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                        <a href="https://wa.me/+917756042517/?text=Welcome To Agep" target="_block"><i
-                                class="bx bxl-whatsapp" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</footer>
-<div class="copyright-fluid text-center copyright p-2">
-    &copy; Copyright <a href="#">AGEP International pvt.ltd - 2023 </a> All Rights Reserved
-</div>
-<!-- End Footer -->
+    <?php include 'footer.php'; ?>
     <!-- footer Section End -->
 
     <!-- Vendor JS Files -->
