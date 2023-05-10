@@ -559,9 +559,10 @@ section {
     width: 20%;
     float: left;
     position: relative;
-    min-height: 1px;
+    min-height: 10px;
     padding-right: 15px;
     padding-left: 15px;
+    margin-left: 20px;
   }
 }
 @media(min-width: 768px){
