@@ -53,9 +53,36 @@
       }
     })
   }
+
+  // Portfilio
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
+  window.addEventListener('load', () => {
+    let portfolioContainer = select('.portfolio-container');
+    if (portfolioContainer) {
+      let portfolioIsotope = new Isotope(portfolioContainer, {
+        itemSelector: '.portfolio-item'
+      });
 
+      let portfolioFilters = select('#portfolio-flters li', true);
+
+      on('click', '#portfolio-flters li', function (e) {
+        e.preventDefault();
+        portfolioFilters.forEach(function (el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        portfolioIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        portfolioIsotope.on('arrangeComplete', function () {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
   /**
    * Scrolls to an element with header offset
    */
@@ -282,4 +309,21 @@
   });
 
 })()
+
+
+let items = document.querySelectorAll(".faq-section .faq-accordions .title");
+items.forEach(function (t) {
+  t.addEventListener("click", function (e) {
+    items.forEach(function (e) {
+      e !== t || e.classList.contains("open")
+        ? e.classList.remove("open")
+        : e.classList.add("open");
+    });
+  });
+});
+
+// add Countes Complates project and clients
+// let counts = setInterval(updated);
+// let upto = 0;
+
 
