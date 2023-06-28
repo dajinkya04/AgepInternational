@@ -805,45 +805,45 @@ Whyagep Section start
 }
 
 /* =================services Section Start =============================  */
-.card-service{
+.services .card-service{
   background:#3D454B;
 }
 
-.card-service .card{
+.services .card-service .card{
   width: 100%;
   text-align: center;
   border:0px;
   background:#3D454B;
 }
-.card-service .card img{
+.services .card-service .card img{
 height: 6rem;
 width: 6rem;
 margin-left:1.5rem;
 background:#D8D8D8;
 border-radius:50%;
 }
-.card-service .card img:hover{
+.services .card-service .card img:hover{
  transform: scale(1.1);
 }
   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 
-.card-service .card .card-body h5{
+.services .card-service .card .card-body h5{
 color:#00AEEF;
 font-weight: 800;
 text-align:center;
 margin-left: 1.8rem;
 }
-.card-service .card .card-body ul li{
+.services .card-service .card .card-body ul li{
 list-style:none;
 font-weight: 500;
 color:#BECAD2;
 }
 
-.card-service .card .card-body ul li:hover{
+.services .card-service .card .card-body ul li:hover{
   color:orange ;
   }
 
-.handbg{
+.services .handbg{
   background: linear-gradient(rgba(48,46,102, 0.8), rgba(48,46,102, 0.8)), url("../img/banner/handbg2.png") center;
   background-size: cover;
   height:70vh;
